@@ -1,0 +1,11 @@
+# Requirements for YOLOv8 Pose Detection Script
+# Create the environment using:
+# $ conda create --name yolov8 --file requirements.txt
+
+# Core dependencies
+ultralytics==8.3.31  # YOLOv8 library for object detection and pose estimation
+opencv-python==4.7.0  # OpenCV for video capture and processing
+
+# Optional dependencies
+numpy  # Required by OpenCV and YOLO internally
+torch>=2.0.0  # Torch backend for YOLO
