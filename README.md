@@ -1,4 +1,4 @@
-# YOLOv8 Pose Detection Script
+# YOLOv11 Pose Estimation 
 
 This project uses Ultralytics' YOLOv8 and OpenCV for real-time pose detection via a webcam. Follow the instructions below to set up the environment and run the script on **macOS** or **Windows**.
 
@@ -19,14 +19,14 @@ This project uses Ultralytics' YOLOv8 and OpenCV for real-time pose detection vi
    conda activate yolov8
 2. Make sure the yolo11n-pose.pt file is in the same directory as the script. Then run:
    ```bash
-   python hand_pose_detection.py
+   python yoloV11.py
 
 
 ## License
-
 The code in this repository is provided as-is, without any warranty. This project uses the following libraries, which are licensed under their respective terms:
-	•	Ultralytics: Licensed under the GPL-3.0 License.
-	•	OpenCV: Licensed under the Apache License 2.0.
-	•	NumPy: Licensed under the BSD 3-Clause License.
 
-   
+- **Ultralytics**: Licensed under the [GPL-3.0 License](https://github.com/ultralytics/ultralytics/blob/main/LICENSE).
+- **OpenCV**: Licensed under the [Apache License 2.0](https://github.com/opencv/opencv/blob/master/LICENSE).
+- **NumPy**: Licensed under the [BSD 3-Clause License](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+
+Please ensure compliance with these licenses if redistributing or modifying this project.
