@@ -4,7 +4,7 @@
 
 # Core dependencies
 ultralytics==8.3.31  # YOLOv8 library for object detection and pose estimation
-opencv-python==4.7.0  # OpenCV for video capture and processing
+opencv-python>=4.7.0  # OpenCV for video capture and processing
 
 # Optional dependencies
 numpy  # Required by OpenCV and YOLO internally
