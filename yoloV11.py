@@ -7,7 +7,7 @@ import cv2
 model = YOLO("yolo11n-pose.pt")
 
 # Set device (optional)
-device = 'mps'  # Use 'cpu', 'cuda', or 'mps' for Apple Silicon
+device = 'cpu'  # Use 'cpu', 'cuda', or 'mps' for Apple Silicon
 
 # Open a live webcam feed
 cap = cv2.VideoCapture(1)
